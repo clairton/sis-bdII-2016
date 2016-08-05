@@ -56,6 +56,16 @@ ORDER BY  customers.street
 SELECT AVG(price) FROM products;
 	
 --Fazer a media de preço de venda dos produtos iniciados com 'Chair'
+--Continua na proxima aula
+
+	
+
+
+
+
+
+
+
 
 
 
