@@ -44,6 +44,16 @@ SELECT MAX(CHAR_LENGTH(last_name)) FROM customers
 --nome completo em maiusculo
 SELECT UPPER(first_name || ' ' || last_name) as nome_completo FROM customers
 
+--limitar os resultados, trazer o produto que tem o maior preço postgres
+SELECT name, price FROM products ORDER BY price LIMIT 1
+--limitar os resultados, trazer o produto que tem o maior preço firebird
+SELECT name, price FROM products ORDER BY price ROWS 1
+
+
+
+
+
+
 
 
 
